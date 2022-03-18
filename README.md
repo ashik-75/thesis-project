@@ -1,5 +1,5 @@
 
-# Next Js Editor with Eslit , Prettier & Tailwind
+# Next Js Editor with Eslint , Prettier & Tailwind
 
 Following the Airbnb style guide , setup our edit for react project
 
