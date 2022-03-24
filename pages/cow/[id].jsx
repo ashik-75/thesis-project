@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React from 'react';
 import cows from '../../data/cow';
@@ -21,6 +22,11 @@ const single = () => {
             }}
             className="grid grid-cols-1 md:grid-cols-2 gap-5 p-10"
         >
+            <Head>
+                <title>{result?.id}</title>
+                <meta property="og:title" content="My Firm Page" key="title" />
+            </Head>
+
             <div>
                 <motion.img
                     initial={{

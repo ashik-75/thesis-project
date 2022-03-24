@@ -5,7 +5,6 @@ import Navbar from '../components/Navbar';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps: { ...pageProps }, router }) {
-    console.log({ router, route: router.route });
     return (
         <>
             <Navbar />
