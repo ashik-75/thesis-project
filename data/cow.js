@@ -1,21 +1,21 @@
 const cows = [
     {
         id: '11045',
-        url: 'cow-1.jpg',
-        milk: '20-30',
+        url: 'standing.jpg',
+        milk: '15-25',
         activity: 'Standing',
         sick: 'No',
     },
     {
         id: '11046',
-        url: 'cow-2.jpg',
-        milk: '15-20',
+        url: 'grazzing.jpg',
+        milk: '10-20',
         activity: 'Grazing',
         sick: 'No',
     },
     {
         id: '11047',
-        url: 'cow-3.jpg',
+        url: 'sitting.jpg',
         milk: '5-10',
         activity: 'Sitting',
         sick: 'Yes',
